@@ -1,0 +1,34 @@
+{
+    "name": "cygnite/cygnite-application",
+    "description": "Cygnite PHP Framework- Skeleton Application",
+    "keywords": ["Cygnite", "Framework"],
+    "homepage": "http://www.cygniteframework.com",
+    "license": "MIT",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Sanjoy Dey",
+            "email": "dey.sanjoy0@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "https://github.com/sanjoydesk/framework"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "cygnite/framework": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Apps\\": "src/Apps/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.0-dev"
+        }
+    }
+}
